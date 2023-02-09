@@ -10,7 +10,9 @@
     --zm-right_icons:#4a4a4a;
     --zm-share_screen:#4bc800;   
 }
-
+html{
+    color: white;
+}
 .d-flex{
     display: flex;
 }
@@ -35,3 +37,38 @@
     font-size: 0.8rem;
     margin: 5px;
 }
+
+
+/*main*/
+main{
+    width: 100%;
+}
+
+.main_container{
+    width: 100%;
+    margin: auto;
+    background-color: #000000;
+}
+
+.row{
+    display: flex;
+    flex: wrap;
+}
+
+.col8{
+    width: calc((100% / 12) * 8);
+    padding: 1rem;
+}
+
+.pic{
+    position: relative;
+}
+
+.badges > .mic,
+.badges > .pincopallo{
+    padding: 0;
+    background-color: #4a4a4a;
+    padding: 0.3rem;
+}
+
+
