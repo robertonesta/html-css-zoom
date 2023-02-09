@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --zm-main_bg:#000000;
+    --zm-footer_bg: #222222;
+    --zm-right_icons:#4a4a4a;
+    --zm-share_screen:#4bc800;   
+}
+
