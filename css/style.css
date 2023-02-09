@@ -11,3 +11,27 @@
     --zm-share_screen:#4bc800;   
 }
 
+.d-flex{
+    display: flex;
+}
+
+/*header*/
+
+.header_container{    
+    justify-content: flex-end;
+}
+
+#app_header{
+    background-color: #000000;
+    padding: 0.5rem;
+    color:white;
+}
+
+.speaker_view, .arrows{
+    background-color: #4a4a4a;
+    border: auto;
+    border-radius: 0.25rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    margin: 5px;
+}
