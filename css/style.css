@@ -17,6 +17,7 @@ html{
     display: flex;
 }
 
+
 /*header*/
 
 .header_container{    
@@ -61,7 +62,6 @@ main{
     position: relative;
 }
 
-
 .badges > .mic,
 .badges > .pincopallo {
     background-color: #4a4a4a82;
@@ -78,3 +78,24 @@ main{
 img{
     max-width: 100%;
 }
+/* endmain */
+
+/*footer*/
+
+#footer{
+    padding: 2rem 1rem;
+    background-color: #222222;
+    color: white;
+}
+
+.ft-bar{
+    width: 100%;
+}
+
+
+.left{
+    display: inline-block;
+}
+
+
+
