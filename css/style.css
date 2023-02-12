@@ -20,30 +20,23 @@ html{
 
 /*header*/
 
-.header_container{    
-    justify-content: flex-end;
-}
-
 #app_header{
-    height: 3rem;
+    height: 50px;
     background-color: #000000;
-    padding: 0.5rem;
-    color:white;
+    text-align: end;
 }
 
-.speaker_view, .arrows{
-    background-color: #4a4a4a;
-    border: auto;
+.btn{background-color: #4b4b4a;
+    color: white;
+    padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
-    padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
-    margin: 5px;
+    border-width: 0;
+    margin-top: 0.25rem;
 }
-
 
 /*main*/
 main{
-    height: calc(100%);
+    height: 100%;
     background-color: #000000;
 }
 
