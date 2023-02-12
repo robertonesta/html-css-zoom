@@ -25,6 +25,7 @@ html{
 }
 
 #app_header{
+    height: 3rem;
     background-color: #000000;
     padding: 0.5rem;
     color:white;
@@ -42,11 +43,12 @@ html{
 
 /*main*/
 main{
-    background-color: #000000
+    height: calc(100%);
+    background-color: #000000;
 }
 
 .main_container{
-    width: 90%;
+    justify-content: center;
     margin: auto;
 }
 
@@ -69,7 +71,7 @@ main{
     font-size: 0.5rem;
 }
 
-.badges {
+.badges{
     position: absolute;
     bottom: 7px;
     left: 3px;
@@ -82,19 +84,24 @@ img{
 
 /*footer*/
 
-#footer{
-    padding: 2rem 1rem;
-    background-color: #222222;
+#app-footer{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: white;
 }
 
-.ft-bar{
-    width: 100%;
+footer .icon {
+    display: flex;
+    flex-direction: column;
 }
 
-
-.left{
-    display: inline-block;
+.footer-left, .footer-center, .footer-right{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 
